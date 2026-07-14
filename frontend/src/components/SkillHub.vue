@@ -505,4 +505,11 @@ watch(isSkillHubVisible, (v) => {
   text-align: center;
   color: var(--td-text-color-secondary);
 }
+
+.skill-hub-content :deep(.t-list-item__meta-avatar) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: visible !important;
+}
 </style>

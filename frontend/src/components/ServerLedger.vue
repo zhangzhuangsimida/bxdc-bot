@@ -176,4 +176,10 @@ async function handleDelete(id: number) {
   text-align: center;
   color: var(--td-text-color-secondary);
 }
+
+.ledger-content :deep(.t-list-item__meta-avatar) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
 </style>
